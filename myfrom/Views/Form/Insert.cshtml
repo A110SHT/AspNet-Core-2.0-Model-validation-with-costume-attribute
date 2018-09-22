@@ -1,0 +1,57 @@
+﻿@model FormModel
+@{
+    ViewData["Title"] = "Form Demo";
+}
+<h2>@ViewData["Title"]</h2>
+<div class="col-lg-12">
+    <form method="post" asp-controller="form" asp-action="insert">
+        <div class="form-group">
+            <label asp-for="FullName"></label>
+            <input asp-for="FullName" class="form-control">
+            <span asp-validation-for="FullName"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Address"></label>
+            <input asp-for="Address" class="form-control">
+            <span asp-validation-for="Address"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control">
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Gender"></label>
+            <select asp-for="Gender" asp-items="Html.GetEnumSelectList<GenderEnum>()" class="form-control"></select>
+            <span asp-validation-for="Gender"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Country"></label>
+            <select asp-for="Country" asp-items="Model.LstCountry" class="form-control"></select>
+            <span asp-validation-for="Country"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="MobileNo"></label>
+            <input asp-for="MobileNo" class="form-control">
+            <span asp-validation-for="MobileNo"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="DOB"></label>
+            <input asp-for="DOB" class="form-control">
+            <span asp-validation-for="DOB"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" class="form-control">
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ConfirmPassword"></label>
+            <input asp-for="ConfirmPassword" class="form-control">
+            <span asp-validation-for="ConfirmPassword"></span>
+        </div>
+        <div class="form-group col-lg-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>

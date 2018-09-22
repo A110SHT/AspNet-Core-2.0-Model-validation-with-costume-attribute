@@ -1,0 +1,11 @@
+C:\Users\anils\source\repos\myfrom\myfrom\bin\Debug\netcoreapp2.0\myfrom.deps.json
+C:\Users\anils\source\repos\myfrom\myfrom\bin\Debug\netcoreapp2.0\myfrom.runtimeconfig.json
+C:\Users\anils\source\repos\myfrom\myfrom\bin\Debug\netcoreapp2.0\myfrom.runtimeconfig.dev.json
+C:\Users\anils\source\repos\myfrom\myfrom\bin\Debug\netcoreapp2.0\myfrom.dll
+C:\Users\anils\source\repos\myfrom\myfrom\bin\Debug\netcoreapp2.0\myfrom.pdb
+C:\Users\anils\source\repos\myfrom\myfrom\obj\Debug\netcoreapp2.0\myfrom.csprojAssemblyReference.cache
+C:\Users\anils\source\repos\myfrom\myfrom\obj\Debug\netcoreapp2.0\myfrom.csproj.CoreCompileInputs.cache
+C:\Users\anils\source\repos\myfrom\myfrom\obj\Debug\netcoreapp2.0\myfrom.AssemblyInfoInputs.cache
+C:\Users\anils\source\repos\myfrom\myfrom\obj\Debug\netcoreapp2.0\myfrom.AssemblyInfo.cs
+C:\Users\anils\source\repos\myfrom\myfrom\obj\Debug\netcoreapp2.0\myfrom.dll
+C:\Users\anils\source\repos\myfrom\myfrom\obj\Debug\netcoreapp2.0\myfrom.pdb
