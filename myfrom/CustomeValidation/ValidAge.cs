@@ -20,7 +20,7 @@ namespace myfrom.CustomeValidation
                 throw new ArgumentException("Attribute not applied on Model");
 
             if (model.DOB > DateTime.Now.Date)
-                return new ValidationResult($"{validationContext.DisplayName} can't be in future");
+                return new ValidationResult($"{validationContext.DisplayName} cannot be upcoming Date.");
             if (model.DOB > DateTime.Now.Date.AddYears(-16))
                   return new ValidationResult("You must be 17 years old.");
             if (db < DateTime.Now.Date)
