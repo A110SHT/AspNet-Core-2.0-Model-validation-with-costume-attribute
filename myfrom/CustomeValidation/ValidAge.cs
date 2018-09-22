@@ -17,7 +17,7 @@ namespace myfrom.CustomeValidation
             var db = model.DOB.AddYears(100);
 
             if (model == null)
-                throw new ArgumentException("Attribute not applied on Employee");
+                throw new ArgumentException("Attribute not applied on Model");
 
             if (model.DOB > DateTime.Now.Date)
                 return new ValidationResult($"{validationContext.DisplayName} can't be in future");
